@@ -6,3 +6,10 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+1-npm create vite@latest .
+2-npm init -y in root folder.       (This will create package.json in root).
+3-in package.json change "main": "index.js" to "server.js"
+4-Create server.js inside backend folder.
+ 
