@@ -12,4 +12,13 @@ Currently, two official plugins are available:
 2-npm init -y in root folder.       (This will create package.json in root).
 3-in package.json change "main": "index.js" to "server.js"
 4-Create server.js inside backend folder.
- 
+5-npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken  in root folder. 
+6-Create "scripts": {
+    "server": "node backend/server.js"
+  },           inside package.json in root folder.
+
+7-Now run npm run server.
+8-npm install nodemon --save-dev
+9-Now Change the scripts in package.json in root folder to "scripts": {
+    "server": "nodemon backend/server.js"
+  },
