@@ -22,3 +22,7 @@ Currently, two official plugins are available:
 9-Now Change the scripts in package.json in root folder to "scripts": {
     "server": "nodemon backend/server.js"
   },
+10-Install dotenv extension so that we dont have to use require we can directly import. 
+11- Also change the type as module in package.json.
+
+
