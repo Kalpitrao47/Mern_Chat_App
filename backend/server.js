@@ -1,3 +1,4 @@
+import authroutes from "./routes/auth.routes.js";
 // const express = require("express"); 
 import express from "express";
 // const dotenv = require("dotenv"); 
@@ -22,7 +23,7 @@ app.get("/", (req, res) => {
 // });
 //We will use middleware routes so that we wont make this ugly storing all of the routes in the same server.js file.
 
-app.use("/api/auth", authroutes)
+app.use("/api/auth", authroutes);
 
 
 
