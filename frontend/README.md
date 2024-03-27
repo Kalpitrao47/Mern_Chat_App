@@ -24,5 +24,9 @@ Currently, two official plugins are available:
   },
 10-Install dotenv extension so that we dont have to use require we can directly import. 
 11- Also change the type as module in package.json.
+12-Make middlewares in server.js files
+13-Create a folder routes inside backend folder.
+
+
 
 
